@@ -13,6 +13,7 @@ import java.util.Arrays;
 @SpringBootApplication
 public class DemoApplication {
 
+/*
 	//This bean is added to set the cookies HttpOnly = false. It works (cookies aren't httpOnly) but
 	// the flow doesn't work yet !!
 	@Bean
@@ -28,6 +29,7 @@ public class DemoApplication {
 			context.setUseHttpOnly(false);
 		}
 	}
+*/
 
 
 	public static void main(String[] args) {

@@ -9,7 +9,6 @@
     </view-state>
 
     <view-state id="hello" view="newFlow/hello">
-        <transition to="userReady"/>
     </view-state>
 
     <end-state id="userReady">

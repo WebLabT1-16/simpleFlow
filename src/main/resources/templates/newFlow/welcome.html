@@ -7,10 +7,9 @@
 </head>
 <body>
 <h1>Welcome!!!</h1>
-<form>
-    <input type="hidden" name="_flowExecutionKey" th:value="${flowExecutionKey}"/>
-    <button type="submit" name="_eventId_goHello">Go Hello</button>
-    <button type="submit" name="_eventId_cancel">Cancel</button>
+<form  method="post" th:action="${flowExecutionUrl}">
+    <input type="submit" name="_eventId_goHello"/>
+    <input type="submit" name="_eventId_cancel"/>
 </form>
 
 </body>

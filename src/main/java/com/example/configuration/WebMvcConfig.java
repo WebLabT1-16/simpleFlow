@@ -48,4 +48,19 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         viewResolver.setTemplateEngine(springTemplateEngine);
         return viewResolver;
     }
+
+/*
+    @Configuration
+    public static class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+        @Override
+        protected void configure(HttpSecurity http) throws Exception {
+            http.authorizeRequests()
+                    .antMatchers("*/
+/**").permitAll();
+        }
+
+    }
+*/
+
 }
